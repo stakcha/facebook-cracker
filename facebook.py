@@ -77,9 +77,9 @@ def welcome():
 	total = open(passwordlist,"r")
 	total = total.readlines()
 	print (wel) 
-	print " [*] Account to crack : {}".format(email)
-	print " [*] Loaded :" , len(total), "passwords"
-	print " [*] Cracking, please wait ...\n\n"
+	print " ([*] Account to crack : {}".format(email)
+	print " ([*] Loaded :" , len(total), "passwords")
+	print " ([*] Cracking, please wait ...\n\n")
 
 	
 if __name__ == '__main__':
